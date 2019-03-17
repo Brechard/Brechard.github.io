@@ -1,0 +1,31 @@
+#text_box {
+	background-color: rgba(255, 255, 255, 0.8)
+}
+#text_box_2 {
+	background-color: rgba(255, 255, 255, 0.6)
+}
+#pers_p {
+	color: #000000;
+}
+#text_center {
+	text-align: center;
+}
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: DimGrey;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
