@@ -29,6 +29,7 @@
     <link rel="stylesheet" type='text/css' media='all' href="static/css/webslides.css">
     <!-- personal CSS -->
     <link rel="stylesheet" type='text/css' media='all' href="static/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
     <!-- Optional - CSS SVG Icons (Font Awesome) -->
     <link rel="stylesheet" type='text/css' media='all' href="static/css/svg-icons.css">
@@ -51,13 +52,14 @@
     <meta name="theme-color" content="#333333">
   </head>
   <body>
+    
     <header role="banner">
       <nav role="navigation">
         <ul>
             <p class="logo"><a href="https://github.com/Brechard" title="Github">GitHub</a></p>
         </ul>
       </nav>
-    </header>
+    </header> 
 
     <main role="main">
       <article id="webslides">
@@ -71,13 +73,13 @@
             <span class="background" style="background-image:url('img/00.jpg')"></span>
             <!--.wrap = container (width: 90%) -->
             <div class="content-center">
-              <h1><strong><font color="black">Rodrigo Brechard Alarcia</font></strong></h1>
+              <h1 class="myname">Rodrigo Brechard Alarcia</h1>
             </div>
             <p></p>
             <div class="content-left" id="text_box">
-              <ul class="flexblock">
+              <ul class="flexblock about-me">
                 <li>
-                  <a href="#">
+                <!-- <a href="#"> -->
                     <p id="pers_p">
                       Human kind is an extraordinary specie that amazes me, this is why I enjoy so much meeting new people from different countries and cultures and why I travel every time I can to a different place.
                     </p>
@@ -85,9 +87,9 @@
                       One of the most interesing things about human kind is it's intelligence, is it possible to create something similar? and something better? That is how my interest in artificial intelligence started and why I decided to course a master in AI.
                     </p>
                     <p>
-                      My main passion in live is travelling to know new cultures, places and foods. I also greatly enjoy reading, watching TV series and doing sport (basketball, swimming, golf, footbal, etc).
+                      My main passion in live is travelling to discover new cultures, places and foods. My other hobbies are reading, watching TV series and doing sport (basketball, swimming, golf, footbal, etc).
                     </p>
-                  </a>
+                <!--  </a> -->
                 </li>
               </ul>
             </div>
@@ -122,13 +124,7 @@
                   <h1>
                     <strong>AutoMLatic Forex trading</strong>
                   </h1>
-                </li>
-              </ul>
-            </div>
-            <p></p>
-            <div class="content-center" id="text_box">
-              <ul class="flexblock">
-                <li id="text_center">
+                  <p></p>
                   <p>
                     After working on the research project "Predicting FOREX Market trends: Making money out of money" I decided to start the project from scratch. The approach used this time is very different but uses all the knowledge gained. It is also a longer project that requires much more time and computer power.
                   </p>
@@ -140,26 +136,20 @@
             </div>
             <!-- .end .wrap -->
           </section>
-          <section class="fadeIn slide-top">
+          <section class="fadeIn">
             <span class="background" style="background-image:url('img/robot.png')"></span>
             <div class="content-center" id="text_box">
               <ul class="flexblock">
                 <li id="text_center">
-                  <a href="https://github.com/Brechard/Robot-Simulator" target="_blank" rel="noopener noreferrer">
-                    <h1>
-                      <strong>Robot simulator</strong>
-                    </h1>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <p></p>
-            <div class="content-center" id="text_box">
-              <ul class="flexblock">
-                <li id="text_center">
+                  <h1>
+                    <strong>Robot simulator</strong>
+                  </h1>
+                  <p></p>
                   <p>
                     2D simulator of a wheeled robot coded in Python, using the library pygame. This project was done in a group of 3 people. We implemented an evolutionary algorithm that runs each robot in several rooms at each generation to use the average fitness as a technique to reach convergence faster. It also uses karman filters for self-localazition.
                   </p>
+                	<a href="https://github.com/Brechard/Robot-Simulator" class="repo-button" target="_blank" rel="noopener noreferrer"> CHECK PROJECT </a>
+
                 </li>
               </ul>
             </div>
@@ -170,19 +160,18 @@
             <div class="content-center" id="text_box">
               <ul class="flexblock">
                 <li id="text_center">
-                  <a href="https://github.com/philippe554/MRP_10_Forex/blob/master/README.md" target="_blank" rel="noopener noreferrer">
                     <h1>
                       <strong>Predicting FOREX Market trends</strong>
                     </h1>
                     <h2><strong>Making money out of money</strong></h2>
-                  </a>
                   <p></p>
                   <p>
                     Trading in Forex can lead to profit if you react well (by buying and selling money) to dynamic changes in the exchange rates. However, forecasting of the Forex market is very difficult, due to its size, dispersion, and continuous operation.
                   </p>
                   <p>
-                    Therefore, the goal of this research project was to investigate whether neural networks and deep learning could be used to achieve an accurate data-driven forecast of the Forex market.
+                    Therefore, the goal of this research project was to investigate whether neural networks and deep learning could be used to achieve an accurate data-driven forecast of the Forex market. This was a project done in a 6 people group.
                   </p>
+                  <a href="https://github.com/philippe554/MRP_10_Forex/blob/master/README.md" class="repo-button" target="_blank" rel="noopener noreferrer"> CHECK PROJECT </a>
                 </li>
               </ul>
             </div>
@@ -192,15 +181,15 @@
             <div class="content-center" id="text_box">
               <ul class="flexblock">
                 <li id="text_center">
-                  <a href="https://github.com/Brechard/Omega" target="_blank" rel="noopener noreferrer">
                     <h1>
                       <strong>ABO</strong>
                     </h1>
                     <h2><strong>Alpha-Beta framework for Omega</strong></h2>
+                    <p></p>
                     <p>
                       The purpose of this project was designing the board game Omega and creating an alpha-beta framework to play it. The main techniques used to improve the search are: Windows, Transposition tables, Aspiration search, Iterative deepening, Union Find, Move ordering and Killer move.
                     </p>
-                  </a>
+                  <a href="https://github.com/Brechard/Omega" class="repo-button" target="_blank" rel="noopener noreferrer"> CHECK PROJECT </a>
                 </li>
               </ul>
             </div>
@@ -210,18 +199,18 @@
             <div class="content-center" id="text_box">
               <ul class="flexblock">
                 <li id="text_center">
-                  <a href="https://github.com/Brechard/Auctioneer" target="_blank" rel="noopener noreferrer">
                     <h1>
                       <strong>Auctioneer</strong>
                     </h1>
                     <h2><strong>Auction analyzer</strong></h2>
+                    <p></p>
                     <p>
                       Different types of auction mechanisms exist, and each of them has certain advantages and disadvantages. An “ideal” auction mechanism should maximize profits of sellers and buyers, maintain price stability, be “fair” and non-biased.
                     </p>
                     <p>
-                      This program simulates a modified second-price sealed-bid (Vickrey) auction scenario, both "pure" and level commitment version. The purpose of it is studying how "ideal" this kind of auctions and some bidding techniques are. To do so, it generates as output the statistics of market price, the sellers profit and the buyers profit. This was a project done in a group of 4 people.
+                      This program simulates a modified second-price sealed-bid (Vickrey) auction scenario, both "pure" and level commitment version. The purpose of it is studying how "ideal" this kind of auctions and some bidding techniques are. To do so, it generates as output the statistics of market price, the sellers profit and the buyers profit. This was a project done in a 4 people group.
                     </p>
-                  </a>
+                  <a href="https://github.com/Brechard/Auctioneer" class="repo-button" target="_blank" rel="noopener noreferrer"> CHECK PROJECT </a>
                 </li>
               </ul>
             </div>
@@ -231,18 +220,18 @@
             <div class="content-center" id="text_box">
               <ul class="flexblock">
                 <li id="text_center">
-                  <a href="https://github.com/Brechard/TVA" target="_blank" rel="noopener noreferrer">
                     <h1>
                       <strong>TVA</strong>
                     </h1>
                     <h2><strong>Tactical Voting Analyst </strong></h2>
+                    <p></p>
                     <p>
                       Strategic voting is common in political elections and there are various famous examples for this from different countries (see in References section). Moreover, because of the increasingly common usage of electronic voting and the risk of influencing the outcome through illegally manipulating the voters’ preferences, the topic of strategic voting is receiving steadily growing attention since some years.
                     </p>
                     <p>
-                      This program simulates an election and analyses the possible ways of manipulating it considering the voters preferences, the kind of elections and if bullet voting is allowed. This was a project done in a group of 4 people.
+                      This program simulates an election and analyses the possible ways of manipulating it considering the voters preferences, the kind of elections and if bullet voting is allowed. This was a project done in a 4 people group.
                     </p>
-                  </a>
+                    <a href="https://github.com/Brechard/TVA" class="repo-button" target="_blank" rel="noopener noreferrer"> CHECK PROJECT </a>
                 </li>
               </ul>
             </div>

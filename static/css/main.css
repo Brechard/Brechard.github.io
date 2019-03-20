@@ -1,5 +1,6 @@
 #text_box {
-	background-color: rgba(255, 255, 255, 0.8)
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 2rem;
 }
 #text_box_2 {
 	background-color: rgba(255, 255, 255, 0.6)
@@ -9,6 +10,11 @@
 }
 #text_center {
 	text-align: center;
+}
+.myname {
+	color:black;
+	text-shadow:3px 3px 10px #e7e7e7;
+	font-weight: bold;
 }
 /* unvisited link */
 a:link {
@@ -28,4 +34,67 @@ a:hover {
 /* selected link */
 a:active {
   color: black;
+}
+
+/*** Some extra CSS ***/
+
+/* For making titles slightly smaller on desktop */
+
+@media screen and (min-width: 767px){
+  h1 {
+    font-size: 4.5rem;
+  }
+}
+
+/* For avoiding text going outside the slide */
+
+@media (min-width: 1024px){
+section, .slide {
+    padding-top: 10rem;
+}
+}
+
+/* For the "About me" slide */
+
+.about-me {
+  padding: 1rem; 
+  text-align: justify;
+}
+
+.about-me p {
+  text-align: justify;
+}
+
+/* For the navigation between slides */
+
+#navigation {
+  opacity: 1;
+}
+
+#navigation a {
+  opacity: 1;
+  color: #2b2b2b;
+}
+
+#webslides:hover #navigation a:hover {
+  background-color: #2b2b2b;
+}
+
+/* For making easy to notice when there is a link that leads to a repository */
+
+#text_center a.repo-button {
+  background: #2b2b2b;
+  color: white;
+  border-radius: 3rem;
+  padding: 0.5em 0;
+  width: 50%;
+  margin: auto;
+}
+
+/* For the mobile version */
+
+@media screen and (max-width: 767px) {
+  section, .slide {
+    padding-bottom: 3.5rem;
+  }
 }
